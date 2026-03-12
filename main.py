@@ -39,4 +39,10 @@ class Voiture:
         self.modele = modele
         self.immatriculation = immatriculation
         self.employe = None
-        
+
+    def afficher_info(self):
+
+        if self.employe:
+            print(f"Voiture {self.modele} - Assignée à {self.employe.nom}")
+        else:
+            print(f"Voiture {self.modele} - Non assignée")
