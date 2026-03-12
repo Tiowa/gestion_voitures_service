@@ -71,3 +71,9 @@ e2.attribuer_voiture(v2)
 
 e1.afficher_info()
 e2.afficher_info()
+
+print("\nRetrait de voiture")
+
+e1.retirer_voiture()
+
+e1.afficher_info()
