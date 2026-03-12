@@ -63,3 +63,11 @@ e2.afficher_info()
 
 v1.afficher_info()
 v2.afficher_info()
+
+print("\nAttribution des voitures")
+
+e1.attribuer_voiture(v1)
+e2.attribuer_voiture(v2)
+
+e1.afficher_info()
+e2.afficher_info()
