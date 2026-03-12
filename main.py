@@ -46,3 +46,12 @@ class Voiture:
             print(f"Voiture {self.modele} - Assignée à {self.employe.nom}")
         else:
             print(f"Voiture {self.modele} - Non assignée")
+
+
+e1 = Employe("Alex", 1)
+e2 = Employe("Jean", 2)
+e3 = Employe("Thomas", 3)
+
+v1 = Voiture("Toyota Corolla", "AA111")
+v2 = Voiture("Honda Civic", "BB222")
+v3 = Voiture("Ford Focus", "CC333")
