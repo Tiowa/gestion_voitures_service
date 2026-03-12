@@ -55,3 +55,11 @@ e3 = Employe("Thomas", 3)
 v1 = Voiture("Toyota Corolla", "AA111")
 v2 = Voiture("Honda Civic", "BB222")
 v3 = Voiture("Ford Focus", "CC333")
+
+print("\nInformations initiales")
+
+e1.afficher_info()
+e2.afficher_info()
+
+v1.afficher_info()
+v2.afficher_info()
