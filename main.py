@@ -77,3 +77,7 @@ print("\nRetrait de voiture")
 e1.retirer_voiture()
 
 e1.afficher_info()
+
+print("\nTest attribution interdite")
+
+e3.attribuer_voiture(v2)
