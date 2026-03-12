@@ -32,3 +32,11 @@ class Employe:
 
         self.voiture.employe = None
         self.voiture = None
+
+class Voiture:
+
+    def __init__(self, modele, immatriculation):
+        self.modele = modele
+        self.immatriculation = immatriculation
+        self.employe = None
+        
